@@ -683,20 +683,14 @@ button{
 .section-company input[type="text"]::placeholder{
   color:#b9b9b9; }
 .section-advantages{
-  padding:168px 0;
+  padding:84px 0;
   background-color:#fff; }
-@media screen and (max-width: 768px){
-    .section-advantages{
-      padding:92px 0; } }
 .section-advantages .section-title{
     font-size:29px;
     text-transform:uppercase;
     font-family:'Helvetica Bold';
     text-align:center;
-    margin-bottom:83px; }
-@media screen and (max-width: 768px){
-      .section-advantages .section-title{
-        margin-bottom:70px; } }
+    margin-bottom:57px; }
 .section-advantages .advantages-wrapp{
     text-align:center;
     display:-webkit-box;
@@ -738,10 +732,7 @@ button{
     line-height:19.8px;
     min-height:123px; }
 .section-advantages .margin{
-    margin-bottom:79px; }
-@media screen and (max-width: 768px){
-      .section-advantages .margin{
-        margin-bottom:70px; } }
+    margin-bottom:50px; }
 .md-show{
   display:none !important; }
 @media only screen and (max-width: 767px){
