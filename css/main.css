@@ -414,7 +414,7 @@ button{
 .footer-bottom .icons:last-child{
       margin-right:0; }
 .header{
-  padding:21px 0;
+  padding:15px 0;
   background-color:#1fa9e8; }
 .header .container{
     display:-webkit-box;
@@ -422,8 +422,13 @@ button{
     -webkit-box-pack:justify;
     justify-content:space-between; }
 .header .logo-img{
-    width:115px;
-    height:62px; }
+    width:135px;
+    height:70px; }
+.header .logo-link{
+    margin-left:9%; }
+@media screen and (max-width: 950px){
+      .header .logo-link{
+        margin-left:0; } }
 .header .wrapp-nav{
     position:relative;
     display:-webkit-box;
@@ -532,19 +537,19 @@ button{
       background-color:transparent; } }
 .section-company .company-name{
   text-align:center;
-  margin-bottom:30px; }
+  margin-bottom:16px; }
 .section-company .company-name img{
-    max-width:407px;
+    max-width:286px;
     width:100%; }
 .section-company .container{
   position:relative; }
 .section-company .section-title{
   color:#ffffff;
-  font-size:37px;
+  font-size:28px;
   text-transform:uppercase;
   font-family:'Helvetica Bold';
   text-align:center;
-  margin-bottom:30px; }
+  margin-bottom:16px; }
 @media screen and (max-width: 768px){
     .section-company .section-title{
       font-size:29px; } }
@@ -566,8 +571,8 @@ button{
   -webkit-box-direction:normal;
   flex-direction:column;
   text-align:center;
-  padding:45px 35px;
-  max-width:571px;
+  max-width:550px;
+  padding:35px 30px;
   position:relative; }
 @media screen and (max-width: 960px){
     .section-company .form{
@@ -581,10 +586,7 @@ button{
     font-weight:700;
     text-transform:uppercase;
     font-family:'Helvetica Bold';
-    margin-bottom:30px; }
-@media screen and (max-width: 768px){
-      .section-company .form__title{
-        margin-bottom:20px; } }
+    margin-bottom:20px; }
 @media screen and (max-width: 480px){
       .section-company .form__title{
         font-size:19px; } }
@@ -592,14 +594,11 @@ button{
     font-size:15px;
     color:#1fa9e8;
     text-decoration:underline;
-    margin-bottom:40px; }
-@media screen and (max-width: 768px){
-      .section-company .form__link{
-        margin-bottom:20px; } }
+    margin-bottom:20px; }
 .section-company .form__info{
     border-radius:8px;
     border:1px solid #d5d5d5;
-    height:50px;
+    height:45px;
     color:#b9b9b9;
     font-size:15px;
     padding-left:22px;
@@ -620,7 +619,7 @@ button{
 .section-company .form__adress input{
       border-radius:8px;
       border:1px solid #d5d5d5;
-      height:50px;
+      height:45px;
       flex-basis:236px;
       margin-bottom:18px;
       padding-left:22px;
